@@ -1,0 +1,6 @@
+{
+    "name": "steve/tdl",
+    "require": {
+        "tightenco/jigsaw": "^0.6.4"
+    }
+}
