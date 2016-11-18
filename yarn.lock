@@ -814,8 +814,8 @@ bcrypt-pbkdf@^1.0.0:
     tweetnacl "^0.14.3"
 
 beardcss:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/beardcss/-/beardcss-2.2.1.tgz#0a46fb4ee6723a24d85c491323319b3cbdffd29a"
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/beardcss/-/beardcss-2.2.3.tgz#ea4f01556901631f9bac29b69b328deb0f26598a"
 
 beeper@^1.0.0:
   version "1.1.1"
