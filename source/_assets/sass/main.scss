@@ -41,6 +41,22 @@ html {
     max-width: 36rem;
 }
 
+.bggc{
+	background-image: linear-gradient(-180deg, #FFFFFF 0%, #FFFFFF 65%, #F6F8FB 65%, #F6F8FB 100%);
+}
+
+.video-thumb{
+	max-width: 15rem;
+	float: left;
+	display: block;
+}
+
+.video-meta{
+	float: left;
+	display: block;
+	
+}
+
 .video-embed {
     padding-bottom: 62.5%;
     position: relative;
@@ -58,9 +74,21 @@ html {
 .quote-name {
     background-image: url('/img/avatar-taylor.png');
     background-repeat: no-repeat;
-    background-size: 32px 32px;
-    height: 32px;
-    padding-top: 6px;
+    background-size: 30px 30px;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 6px;
+}
+
+.watch-tdl{
+	float: left;
+	padding-left: 28px;
+	padding-top: 1px;
+	margin-top: 14px;
+	height: 20px;
+	background-image: url('/img/icon-play.svg');
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
 }
 
 .screenshot {
