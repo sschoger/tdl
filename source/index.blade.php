@@ -14,15 +14,26 @@
         @include('_partials.sign-up')
     </div>
 
-    <div class="tcg80">
-        <p class="sans tcg80 fw7 ft6 mb2 lh1-5">
-            When I was learning how to test, the typical examples always made it seem pretty straightforward.
+    <div class="tcg80 mb6">
+        <p class="sans tcg80 fw7 ft7 mb2 lh1-5">
+            Most examples make testing look pretty easy.
         </p>
+
         <p class="sans fw3 ft4 mb2 lh1-5">
-            Assert <em>5+5</em> equals 10? Sure, <em class="fw5">piece of cake!</em>
+            When I was first learning how to test, every example I could find made it seem fairly straightforward.
+        </p>
+
+        <div class="sans fw3 ft4 lh1-5 ml2 mb2">
+            <p class="mb1">
+                <em>"Assert 5+5 equals 10? Sure, piece of cake!"</em>
+            </p>
+        </div>
+
+        <p class="sans fw3 ft4 mb2 lh1-5">
         </p>
         <p class="sans fw4 ft4 mb2 lh1-5">
             <span class="dib bghighlight py.25 ph.5 nml.5">But as soon as I tried to test a <em>real</em> application, <span class="fw6">I was paralyzed</span>.</span>
+            {{-- <span class="dib bghighlight py.25 ph.5 nml.5">But as soon as you try to test a <em>real</em> application, <span class="fw6">you're paralyzed</span>.</span> --}}
         </p>
 
         <div class="sans fw3 ft4 lh1-5 ml2 mb2">
@@ -31,9 +42,15 @@
             <p class="mb1"><em>"What about this code that needs to <span class="fw6">talk to the Stripe API</span>?"</em></p>
         </div>
 
-        <p class="sans fw4 ft4 mb3 lh1-5">
+        <p class="sans fw4 ft4 lh1-5">
             Simple examples are fine for learning the basics, but I wanted to know how to apply this stuff to <em class="fw8">real products</em> that I was <em class="fw8">actually building</em>
             on the job.
+        </p>
+    </div>
+
+    <div class="tcg80 mb6">
+        <p class="sans fw7 ft6 mb3 lh1-5">
+            Test-Driven Laravel is <span class="fw7">the course I wish I had</span> 5 years ago.
         </p>
     </div>
 
