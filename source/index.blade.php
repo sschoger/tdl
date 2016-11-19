@@ -3,26 +3,38 @@
 @section('body')
 <div class="header bgg10 pt4 ">
     <div class="container">
-        <div class="tdl-logo tac mb4"><img src="/img/tdl-logo.png"></div>
-        <h1 class="sans tcg70 fw2 ft8 tac lh1-4 mb2">A step-by-step course to building well-designed, robust Laravel applications with TDD.</h1>
+        <div class="tdl-logo tac mb4"><img src="/img/tdl-logo3.png"></div>
+        <h1 class="sans tcg70 fw2 ft7 tac lh1-4 mb2">
+            A step-by-step training course on building robust, well-designed Laravel applications with TDD.
+        </h1>
     </div>
 </div>
 <div class="container">
-    <div class="nmt6">
+    <div class="nmt6 mb4">
         @include('_partials.sign-up')
     </div>
 
-    <div>
-        <p class="sans tcg70 fw4 ft6 mb3 lh1-5">When I was learning to test, working through the typical examples always made it seem pretty straightforward.</p>
-        <p class="sans tcg50 fw4 ft4 mb2 lh1-5">Assert <code>$calculator->add(5, 5)</code> equals <code>10</code>? Piece of cake!</p>
-        <p class="sans tcg50 fw4 ft4 mb2 lh1-5">But as soon as I tried to test a real application, I was paralyzed.</p>
+    <div class="tcg80">
+        <p class="sans tcg80 fw7 ft6 mb2 lh1-5">
+            When I was learning how to test, the typical examples always made it seem pretty straightforward.
+        </p>
+        <p class="sans fw3 ft4 mb2 lh1-5">
+            Assert <em>5+5</em> equals 10? Sure, <em class="fw5">piece of cake!</em>
+        </p>
+        <p class="sans fw4 ft4 mb2 lh1-5">
+            <span class="dib bghighlight py.25 ph.5 nml.5">But as soon as I tried to test a <em>real</em> application, <span class="fw6">I was paralyzed</span>.</span>
+        </p>
 
-        <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"What's the very first test I'm supposed to write for this brand new app?"</em></p>
-        <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"How do I test that this email gets sent?"</em></p>
-        <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"What about this code that needs to talk to the Stripe API?"</em></p>
+        <div class="sans fw3 ft4 lh1-5 ml2 mb2">
+            <p class="mb1"><em>"What's the <span class="fw6">very first test</span> I'm supposed to write for this brand new app?"</em></p>
+            <p class="mb1"><em>"How do I test that this <span class="fw6">email gets sent</span>?"</em></p>
+            <p class="mb1"><em>"What about this code that needs to <span class="fw6">talk to the Stripe API</span>?"</em></p>
+        </div>
 
-
-        <p class="sans tcg50 fw4 ft4 mb3 lh1-5">Simple examples are fine for learning the basics, but Test-Driven Laravel is the course that show you <span class="fw6">how to apply this stuff to real products you would actually build on the job.</span></p>
+        <p class="sans fw4 ft4 mb3 lh1-5">
+            Simple examples are fine for learning the basics, but I wanted to know how to apply this stuff to <em class="fw8">real products</em> that I was <em class="fw8">actually building</em>
+            on the job.
+        </p>
     </div>
 
     <div class="video-embed mb4">

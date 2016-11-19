@@ -207,11 +207,28 @@ img[width],
 img[height] {
   max-width: none; }
 
-.mw32 {
-  max-width: 32rem; }
+.mw36 {
+  max-width: 36rem; }
+
+.smooth {
+  -webkit-font-smoothing: antialiased; }
+
+.bghighlight {
+  background-color: #fffacc; }
+
+.py\.25 {
+  padding-top: .25rem !important;
+  padding-bottom: .25rem !important; }
+
+.ph\.5 {
+  padding-left: .5rem !important;
+  padding-right: .5rem !important; }
+
+.nml\.5 {
+  margin-left: -.5rem !important; }
 
 html {
-  font-size: 70%; }
+  font-size: 75%; }
 
 .container {
   max-width: 58rem;
@@ -228,7 +245,7 @@ html {
 .tdl-logo > img {
   display: inline-block;
   width: 100%;
-  max-width: 28rem; }
+  max-width: 36rem; }
 
 .video-embed {
   padding-bottom: 62.5%;
