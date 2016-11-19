@@ -210,6 +210,9 @@ img[height] {
 .mw36 {
   max-width: 36rem; }
 
+.mw20 {
+  max-width: 20rem; }
+
 .smooth {
   -webkit-font-smoothing: antialiased; }
 
@@ -226,6 +229,21 @@ img[height] {
 
 .nml\.5 {
   margin-left: -.5rem !important; }
+
+.o20 {
+  opacity: .2; }
+
+.o70 {
+  opacity: .8; }
+
+.\:o100:hover {
+  opacity: 1; }
+
+.\:o0:hover {
+  opacity: 0; }
+
+.bgbo30 {
+  background-color: rgba(0, 0, 0, 0.5); }
 
 html {
   font-size: 75%; }
@@ -250,15 +268,6 @@ html {
 .bggc {
   background-image: linear-gradient(-180deg, #FFFFFF 0%, #FFFFFF 65%, #F6F8FB 65%, #F6F8FB 100%); }
 
-.video-thumb {
-  max-width: 15rem;
-  float: left;
-  display: block; }
-
-.video-meta {
-  float: left;
-  display: block; }
-
 .video-embed {
   padding-bottom: 62.5%;
   position: relative;
@@ -279,8 +288,10 @@ html {
   padding-top: 5px;
   margin-top: 6px; }
 
+.icon {
+  fill: currentColor; }
+
 .watch-tdl {
-  float: left;
   padding-left: 28px;
   padding-top: 1px;
   margin-top: 14px;
