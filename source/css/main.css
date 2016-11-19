@@ -207,6 +207,9 @@ img[width],
 img[height] {
   max-width: none; }
 
+.mw32 {
+  max-width: 32rem; }
+
 html {
   font-size: 70%; }
 

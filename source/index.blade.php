@@ -8,18 +8,18 @@
     </div>
 </div>
 <div class="container">
-	<div class="nmt6">
-    @include('_partials.sign-up')
-	</div>
+    <div class="nmt6">
+        @include('_partials.sign-up')
+    </div>
 
     <div>
         <p class="sans tcg70 fw4 ft6 mb3 lh1-5">When I was learning to test, working through the typical examples always made it seem pretty straightforward.</p>
         <p class="sans tcg50 fw4 ft4 mb2 lh1-5">Assert <code>$calculator->add(5, 5)</code> equals <code>10</code>? Piece of cake!</p>
         <p class="sans tcg50 fw4 ft4 mb2 lh1-5">But as soon as I tried to test a real application, I was paralyzed.</p>
 
-            <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"What's the very first test I'm supposed to write for this brand new app?"</em></p>
-            <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"How do I test that this email gets sent?"</em></p>
-            <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"What about this code that needs to talk to the Stripe API?"</em></p>
+        <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"What's the very first test I'm supposed to write for this brand new app?"</em></p>
+        <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"How do I test that this email gets sent?"</em></p>
+        <p class="sans tcg50 fw5 ft4 mb2 lh1-5"><em>"What about this code that needs to talk to the Stripe API?"</em></p>
 
 
         <p class="sans tcg50 fw4 ft4 mb3 lh1-5">Simple examples are fine for learning the basics, but Test-Driven Laravel is the course that show you <span class="fw6">how to apply this stuff to real products you would actually build on the job.</span></p>

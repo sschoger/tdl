@@ -9,27 +9,24 @@ $sans-serif: 'Libre Franklin', sans-serif;
 
 @import '../../../node_modules/beardcss/stylesheets/beard.before';
 
+.mw32 { max-width: 32rem; }
+
 html {
     font-size: 70%;
 }
 
-// body{
-//     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-// }
-
-.container{
+.container {
     max-width: 58rem;
     margin: 0 auto;
     position: relative;
     padding: 0 14px;
 }
 
-.card{
-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.08);
-
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.08);
 }
 
-.header{
+.header {
     padding-bottom: 100px;
 }
 
@@ -39,7 +36,7 @@ box-shadow: 0 2px 5px 0 rgba(0,0,0,0.08);
     max-width: 28rem;
 }
 
-.video-embed{
+.video-embed {
     padding-bottom: 62.5%;
     position: relative;
     width: 100%;
@@ -53,7 +50,7 @@ box-shadow: 0 2px 5px 0 rgba(0,0,0,0.08);
     height: 100%;
 }
 
-.quote-name{
+.quote-name {
     background-image: url('/img/avatar-taylor.png');
     background-repeat: no-repeat;
     background-size: 32px 32px;
@@ -61,33 +58,33 @@ box-shadow: 0 2px 5px 0 rgba(0,0,0,0.08);
     padding-top: 6px;
 }
 
-.screenshot{
+.screenshot {
     max-width: 58rem;
     height: auto;
     margin: 0 auto;
 }
 
-.frame{
+.frame {
     margin-left: -14px !important;
     margin-right: -14px !important;
 }
 
-.blk, .md-blk3{
+.blk, .md-blk3 {
     padding-left: 14px !important;
     padding-right: 14px !important;
 }
 
-.nmt6{
+.nmt6 {
     margin-top: -80px;
 }
 
-ul{
+ul {
     list-style-type: disc;
     list-style-position: outside;
     margin-left: 2em;
 }
 
-ol{
+ol {
     list-style-type: decimal;
     list-style-position: outside;
     margin-left: 2em;
@@ -100,8 +97,6 @@ ol{
     border-radius: 3px;
     border: 1px solid #dcdcdc;
 }
-
-
 
 
 @import '../../../node_modules/beardcss/stylesheets/beard.after';
