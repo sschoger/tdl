@@ -52,29 +52,29 @@
     </div>
 
     <div class="tcg80 mb6">
-        <p class="sans fw7 ft6 mb2 lh1-5">
-            Test-Driven Laravel is <span class="fw7">the course I wish I had</span> 5 years ago.
+        <p class="sans fw7 ft7 mb2 lh1-5">
+            Test-Driven Laravel is the course I wish I had.
         </p>
          <p class="sans fw4 ft4 lh1-5 mb2">
             Earlier this year I <a href="#" class="tc3 :tc1">published a screencast</a> that introduced a few of the testing ideas that I've been refining over the last 5 years.
         </p>
-        
+
         <div class="card bggc bgw brdr1 bcg10 br6 lh1-5 pa1 mb2 clearfix">
-	        <div class="video-thumb">
-		        <a href="#"><img src="/img/video-thumb.png"></a>
-	        </div>
-	        <div class="video-meta pl2">
-	        <blockquote class="sans tcg70 fw4 ft4"><em>"Everyone watch this. Seriously."</em></blockquote>
-			<p class="quote-name tcg50 sans fw4 ft3 pl3 mb1"><a class="tc3 :tc1" href="/">Taylor Otwell</a>, creator of Laravel</p>
-			<a href="#" class="watch-tdl tc3 :tc1 fw6 ft3">Watch Test-Driven Laravel from Scratch</a>
-	        </div>
-	    
-	        
+            <div class="video-thumb">
+                <a href="#"><img src="/img/video-thumb.png"></a>
+            </div>
+            <div class="video-meta pl2">
+            <blockquote class="sans tcg70 fw4 ft4"><em>"Everyone watch this. Seriously."</em></blockquote>
+            <p class="quote-name tcg50 sans fw4 ft3 pl3 mb1"><a class="tc3 :tc1" href="/">Taylor Otwell</a>, creator of Laravel</p>
+            <a href="#" class="watch-tdl tc3 :tc1 fw6 ft3">Watch Test-Driven Laravel from Scratch</a>
+            </div>
+
+
         </div>
-        
+
         <!-- taylor quote goes here -->
         <!-- video goes here -->
-        
+
         <p class="sans fw4 ft4 lh1-5">Test-Driven Laravel is the culmination of the workflow I've landed on, neatly packaged in a comprehensive video course you can watch in a weekend.</p>
     </div>
 
