@@ -1,17 +1,16 @@
 $brand-color-1: #62C8DE;
 $brand-color-3: #3BB6D1;
 $g10: #E6EBEC;
-$g05: #F3F6F6;
-$g70: #58676A;
-$g50: #899191;
+$g05: #F7FAFA;
+$g70: #3B4446;
+$g50: #667477;
 
-$serif: "Lora", serif;
-$sans-serif: "Source Sans Pro", sans-serif;
+$sans-serif: 'Libre Franklin', sans-serif;
 
 @import '../../../node_modules/beardcss/stylesheets/beard.before';
 
 html {
-    font-size: 75%;
+    font-size: 70%;
 }
 
 // body{
@@ -25,6 +24,11 @@ html {
     padding: 0 14px;
 }
 
+.card{
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.08);
+
+}
+
 .header{
     padding-bottom: 100px;
 }
@@ -32,7 +36,7 @@ html {
 .tdl-logo > img {
     display: inline-block;
     width: 100%;
-    max-width: 32rem;
+    max-width: 28rem;
 }
 
 .video-embed{
@@ -58,7 +62,7 @@ html {
 }
 
 .screenshot{
-    max-width: 640px;
+    max-width: 58rem;
     height: auto;
     margin: 0 auto;
 }
@@ -87,6 +91,14 @@ ol{
     list-style-type: decimal;
     list-style-position: outside;
     margin-left: 2em;
+}
+
+:not(pre)>code {
+    background: #fafafa;
+    padding: .5rem 1rem;
+    color: #666;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
 }
 
 

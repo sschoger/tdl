@@ -176,7 +176,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   min-height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -208,7 +208,7 @@ img[height] {
   max-width: none; }
 
 html {
-  font-size: 75%; }
+  font-size: 70%; }
 
 .container {
   max-width: 58rem;
@@ -216,13 +216,16 @@ html {
   position: relative;
   padding: 0 14px; }
 
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08); }
+
 .header {
   padding-bottom: 100px; }
 
 .tdl-logo > img {
   display: inline-block;
   width: 100%;
-  max-width: 32rem; }
+  max-width: 28rem; }
 
 .video-embed {
   padding-bottom: 62.5%;
@@ -244,7 +247,7 @@ html {
   padding-top: 6px; }
 
 .screenshot {
-  max-width: 640px;
+  max-width: 58rem;
   height: auto;
   margin: 0 auto; }
 
@@ -268,6 +271,13 @@ ol {
   list-style-type: decimal;
   list-style-position: outside;
   margin-left: 2em; }
+
+:not(pre) > code {
+  background: #fafafa;
+  padding: .5rem 1rem;
+  color: #666;
+  border-radius: 3px;
+  border: 1px solid #dcdcdc; }
 
 .tal {
   text-align: left !important; }
@@ -8003,11 +8013,11 @@ ol {
 
 
 .sans-serif {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Libre Franklin", sans-serif; }
 
 
 .serif {
-  font-family: "Lora", serif; }
+  font-family: Merriweather, Georgia, serif; }
 
 
 .code {
@@ -11520,13 +11530,13 @@ ol {
   border-color: #CF5C60 !important; }
 
 .bgg05 {
-  background-color: #F3F6F6 !important; }
+  background-color: #F7FAFA !important; }
 
 .tcg05 {
-  color: #F3F6F6 !important; }
+  color: #F7FAFA !important; }
 
 .bcg05 {
-  border-color: #F3F6F6 !important; }
+  border-color: #F7FAFA !important; }
 
 .bgg10 {
   background-color: #E6EBEC !important; }
@@ -11565,13 +11575,13 @@ ol {
   border-color: #999999 !important; }
 
 .bgg50 {
-  background-color: #899191 !important; }
+  background-color: #667477 !important; }
 
 .tcg50 {
-  color: #899191 !important; }
+  color: #667477 !important; }
 
 .bcg50 {
-  border-color: #899191 !important; }
+  border-color: #667477 !important; }
 
 .bgg60 {
   background-color: #666666 !important; }
@@ -11583,13 +11593,13 @@ ol {
   border-color: #666666 !important; }
 
 .bgg70 {
-  background-color: #58676A !important; }
+  background-color: #3B4446 !important; }
 
 .tcg70 {
-  color: #58676A !important; }
+  color: #3B4446 !important; }
 
 .bcg70 {
-  border-color: #58676A !important; }
+  border-color: #3B4446 !important; }
 
 .bgg80 {
   background-color: #333333 !important; }
@@ -11700,13 +11710,13 @@ ol {
   border-color: #CF5C60 !important; }
 
 .\:bgg05:hover {
-  background-color: #F3F6F6 !important; }
+  background-color: #F7FAFA !important; }
 
 .\:tcg05:hover {
-  color: #F3F6F6 !important; }
+  color: #F7FAFA !important; }
 
 .\:bcg05:hover {
-  border-color: #F3F6F6 !important; }
+  border-color: #F7FAFA !important; }
 
 .\:bgg10:hover {
   background-color: #E6EBEC !important; }
@@ -11745,13 +11755,13 @@ ol {
   border-color: #999999 !important; }
 
 .\:bgg50:hover {
-  background-color: #899191 !important; }
+  background-color: #667477 !important; }
 
 .\:tcg50:hover {
-  color: #899191 !important; }
+  color: #667477 !important; }
 
 .\:bcg50:hover {
-  border-color: #899191 !important; }
+  border-color: #667477 !important; }
 
 .\:bgg60:hover {
   background-color: #666666 !important; }
@@ -11763,13 +11773,13 @@ ol {
   border-color: #666666 !important; }
 
 .\:bgg70:hover {
-  background-color: #58676A !important; }
+  background-color: #3B4446 !important; }
 
 .\:tcg70:hover {
-  color: #58676A !important; }
+  color: #3B4446 !important; }
 
 .\:bcg70:hover {
-  border-color: #58676A !important; }
+  border-color: #3B4446 !important; }
 
 .\:bgg80:hover {
   background-color: #333333 !important; }
@@ -11880,13 +11890,13 @@ ol {
   border-color: #CF5C60 !important; }
 
 .\:\:bgg05:focus {
-  background-color: #F3F6F6 !important; }
+  background-color: #F7FAFA !important; }
 
 .\:\:tcg05:focus {
-  color: #F3F6F6 !important; }
+  color: #F7FAFA !important; }
 
 .\:\:bcg05:focus {
-  border-color: #F3F6F6 !important; }
+  border-color: #F7FAFA !important; }
 
 .\:\:bgg10:focus {
   background-color: #E6EBEC !important; }
@@ -11925,13 +11935,13 @@ ol {
   border-color: #999999 !important; }
 
 .\:\:bgg50:focus {
-  background-color: #899191 !important; }
+  background-color: #667477 !important; }
 
 .\:\:tcg50:focus {
-  color: #899191 !important; }
+  color: #667477 !important; }
 
 .\:\:bcg50:focus {
-  border-color: #899191 !important; }
+  border-color: #667477 !important; }
 
 .\:\:bgg60:focus {
   background-color: #666666 !important; }
@@ -11943,13 +11953,13 @@ ol {
   border-color: #666666 !important; }
 
 .\:\:bgg70:focus {
-  background-color: #58676A !important; }
+  background-color: #3B4446 !important; }
 
 .\:\:tcg70:focus {
-  color: #58676A !important; }
+  color: #3B4446 !important; }
 
 .\:\:bcg70:focus {
-  border-color: #58676A !important; }
+  border-color: #3B4446 !important; }
 
 .\:\:bgg80:focus {
   background-color: #333333 !important; }
@@ -12060,13 +12070,13 @@ ol {
   border-color: #CF5C60 !important; }
 
 .\@bgg05:active {
-  background-color: #F3F6F6 !important; }
+  background-color: #F7FAFA !important; }
 
 .\@tcg05:active {
-  color: #F3F6F6 !important; }
+  color: #F7FAFA !important; }
 
 .\@bcg05:active {
-  border-color: #F3F6F6 !important; }
+  border-color: #F7FAFA !important; }
 
 .\@bgg10:active {
   background-color: #E6EBEC !important; }
@@ -12105,13 +12115,13 @@ ol {
   border-color: #999999 !important; }
 
 .\@bgg50:active {
-  background-color: #899191 !important; }
+  background-color: #667477 !important; }
 
 .\@tcg50:active {
-  color: #899191 !important; }
+  color: #667477 !important; }
 
 .\@bcg50:active {
-  border-color: #899191 !important; }
+  border-color: #667477 !important; }
 
 .\@bgg60:active {
   background-color: #666666 !important; }
@@ -12123,13 +12133,13 @@ ol {
   border-color: #666666 !important; }
 
 .\@bgg70:active {
-  background-color: #58676A !important; }
+  background-color: #3B4446 !important; }
 
 .\@tcg70:active {
-  color: #58676A !important; }
+  color: #3B4446 !important; }
 
 .\@bcg70:active {
-  border-color: #58676A !important; }
+  border-color: #3B4446 !important; }
 
 .\@bgg80:active {
   background-color: #333333 !important; }
