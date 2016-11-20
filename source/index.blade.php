@@ -97,10 +97,7 @@
         <div class="container">
             <h3 class="tc3 fw7 ft8 mb2 lh1-5">What you’ll learn</h3>
             <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">
-                The biggest objective of this course is to teach you how to TDD something <em>real</em>.
-            </p>
-            <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">
-                Not just a cookie-cutter to-do app, or an unrealistically stripped down version of some existing product.
+                The biggest objective of this course is to teach you how to TDD something <em>real</em>, not another cookie-cutter to-do app.
             </p>
             <p class="sans tcg50 lh1 fw4 ft4 mb3 lh1-5">
                 <em>You'll learn how to design a solid test suite for a real-world, marketable product that you could actually charge money for.</em>
@@ -129,16 +126,16 @@
 
     <div class="section-about pv4 tal lh1-5">
         <div class="container">
-            <div class="mb6">
+            <div class="mb4">
                 <h3 class="tc3 fw7 ft8 mb2 lh1-5">What we'll build</h3>
                 <p class="sans tcg70 fw4 ft6 mb2 lh1-5">Together we'll build <em>TicketBeast</em>, a platform for local concert promoters to sell tickets to their events.</p>
                 <div class="screenshot brdr1 bcg20 mb4">
                     <img src="/img/ticketbeast-screen.png">
                 </div>
                 <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">Local promoters can sign up, connect their Stripe account, and start adding concerts.</p>
-                <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">When a concert is ready to be promoted, they share a public link to their concert page via social media, add it to a Facebook event page, etc.</p>
-                <p class="sans tcg50 lh1 fw4 ft4 mb3 lh1-5">Concert goers can visit this link to buy tickets to the show and get them sent to their email.</p>
-                <p class="sans tcg70 lh1 fw6 ft4 mb2 lh1-5">On the back end, concert promoters can do things like:</p>
+                <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">When a concert is ready to be promoted, they can share a public link to their concert page via social media, add it to a Facebook event page, etc.</p>
+                <p class="sans tcg50 lh1 fw4 ft4 mb3 lh1-5">Concert goers who visit this link cant buy tickets to the show and get them sent to their email.</p>
+                <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">On the back end, concert promoters can do things like:</p>
                 <ul class="sans tcg50 fw4 ft4 lh1-5 mb2">
                     <li class="mb1">See how tickets are selling</li>
                     <li class="mb1">Edit event details</li>
@@ -152,15 +149,13 @@
             <div class="mb2">
                 @include('_partials.sign-up-ck')
             </div>
-            <div class="card bgw brdr1 bcg10 br6 lh1-5 ph2 pv1 flex">
-                <div class="pl2 flex-grow flex fdc jcsb">
-                    <div class="mv1">
-                        <blockquote class="sans tcg70 fw3 ft4 mb1"><em>"Definitely sign up for Adam's upcoming TDD course. Highly recommended."</em></blockquote>
-                        <p class="tcg50 sans fw4 ft3 mb1">
-                            <img src="https://pbs.twimg.com/profile_images/741794879114772484/K7QTm6NM.jpg" alt="" width="30" height="30" class="mr.5 circle">
-                            <a class="tc3 :tc1" href="https://twitter.com/jeffrey_way/status/796812812555354112" target="_blank" rel="noopener noreferrer">Jeffrey Way</a>, creator of Laracasts
-                        </p>
-                    </div>
+            <div class="brdr2--left bc1 bgg05 pv1 ph2">
+                <div class="mv1">
+                    <blockquote class="sans tcg70 fw3 ft4 mb1">"Definitely sign up for Adam's upcoming course. Highly recommended."</blockquote>
+                    <p class="tcg50 sans fw4 ft3 mb1">
+                        <img src="https://pbs.twimg.com/profile_images/741794879114772484/K7QTm6NM.jpg" alt="" width="30" height="30" class="mr.5 circle">
+                        <a class="tc3 :tc1" href="https://twitter.com/jeffrey_way/status/796812812555354112" target="_blank" rel="noopener noreferrer">Jeffrey Way</a>, creator of Laracasts
+                    </p>
                 </div>
             </div>
         </div>
@@ -205,8 +200,8 @@
                 </div>
                 <div class="blk md-blk9">
                     <div class="about-bio">
-                        <p class="sans tcg50 fw4 ft4 lh1-5 mb1">Hey! I'm <a class="tc3 :tc1" href="/">@adamwathan</a>, senior web application developer, host of <a class="tc3 :tc1" href="/">Full Stack Radio</a>, creator of <a class="tc3 :tc1" href="/">Nitpick CI</a>, and author of <a class="tc3 :tc1" href="/">Refactoring to Collections</a>.</p>
-                        <p class="sans tcg50 fw4 ft4 lh1-5 mb1">I teach everything I know on my <a class="tc3 :tc1" href="/">blog</a>, through screencasts, and at conferences around the world.</p>
+                        <p class="sans tcg50 fw4 ft4 lh1-5 mb1">Hey! I'm <a class="tc3 :tc1" href="https://twitter.com/adamwathan">@adamwathan</a>, senior web application developer, host of <a class="tc3 :tc1" href="http://www.fullstackradio.com/">Full Stack Radio</a>, creator of <a class="tc3 :tc1" href="https://nitpick-ci.com">Nitpick CI</a>, and author of <a class="tc3 :tc1" href="/refactoring-to-collections/">Refactoring to Collections</a>.</p>
+                        <p class="sans tcg50 fw4 ft4 lh1-5 mb1">I teach everything I know on my <a class="tc3 :tc1" href="http://adamwathan.me/">blog</a>, through <a class="tc3 :tc1" href="http://adamwathan.me/2016/01/11/test-driven-laravel-from-scratch/">screencasts</a>, and at <a class="tc3 :tc1" href="https://www.youtube.com/watch?v=5DVDewOReoY">conferences</a> around the world.</p>
                     </div>
                 </div>
             </div>
