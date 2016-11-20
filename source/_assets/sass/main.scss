@@ -9,7 +9,13 @@ $sans-serif: 'Libre Franklin', sans-serif;
 
 @import '../../../node_modules/beardcss/stylesheets/beard.before';
 
+.twitter-tweet {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .mw36 { max-width: 36rem; }
+.mw32 { max-width: 32rem; }
 .mw20 { max-width: 20rem; }
 .smooth { -webkit-font-smoothing: antialiased; }
 .bghighlight { background-color: #fffacc; }
@@ -21,6 +27,9 @@ $sans-serif: 'Libre Franklin', sans-serif;
 .\:o100:hover { opacity: 1; }
 .\:o0:hover { opacity: 0; }
 .bgbo30 { background-color: rgba(0,0,0,0.5); }
+.mb1\.5 { margin-bottom: 1.5rem !important; }
+.mr\.5 { margin-right: .5rem !important; }
+.circle { border-radius: 50%; }
 
 html {
     font-size: 75%;
