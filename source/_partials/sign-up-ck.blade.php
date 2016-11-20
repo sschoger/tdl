@@ -21,7 +21,7 @@
             <div id="ck_error_msg" class="tac mb1 tcdanger ft4" style="display:none">
                 <p>Something went wrong, please try again.</p>
             </div>
-            <input id="ck_emailField" class="full sans-serif xbrdr brdr1 bcg10 bgg05 pv1 ph2 ft4 ::bc1 br4 mb1.5" type="text" name="email" placeholder="Enter your email">
+            <input type="email" id="ck_emailField" class="full sans-serif xbrdr brdr1 bcg10 bgg05 pv1 ph2 ft4 ::bc1 br4 mb1.5" type="text" name="email" placeholder="Enter your email">
             <button id="ck_subscribe_button" class="full sans-serif pv1 ph2 ft4 fw6 bg3 :bg1 tcw brdr1 bc3 :bc1 br4 smooth">Send me the course preview</button>
         </div>
     </form>
