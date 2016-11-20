@@ -153,7 +153,7 @@
                 </div>
                 <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">Local promoters can sign up, connect their Stripe account, and start adding concerts.</p>
                 <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">When a concert is ready to be promoted, they can share a public link to their concert page via social media, add it to a Facebook event page, etc.</p>
-                <p class="sans tcg50 lh1 fw4 ft4 mb3 lh1-5">Concert goers who visit this link cant buy tickets to the show and get them sent to their email.</p>
+                <p class="sans tcg50 lh1 fw4 ft4 mb3 lh1-5">Concert goers who visit this link can buy tickets to the show and have them delivered via email.</p>
                 <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">On the back end, concert promoters can do things like:</p>
                 <ul class="sans tcg50 fw4 ft4 lh1-5 mb2">
                     <li class="mb1">See how tickets are selling</li>
