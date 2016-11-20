@@ -116,7 +116,7 @@
         <div class="wrap">
             <h3 class="tc3 fw7 ft8 mb2 lh1-5">What you’ll learn</h3>
             <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">
-                The biggest objective of this course is to teach you how to TDD something <em>real</em>, not another cookie-cutter to-do app.
+                The biggest objective of this course is to teach you how to TDD something <em>real</em>, not just another cookie-cutter to-do app.
             </p>
             <p class="sans tcg50 lh1 fw4 ft4 mb3 lh1-5">
                 <em>You'll learn how to design a solid test suite for a real-world, marketable product that you could actually charge money for.</em>
