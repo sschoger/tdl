@@ -2,19 +2,19 @@
 
 @section('body')
 <div>
-    <div class="header bgg10 pt4 ">
-        <div class="container">
+    <div class="pb8 bgg10 pt4 ">
+        <div class="wrap">
             <div class="tdl-logo tac mb4"><img src="/img/tdl-logo3.png"></div>
             <h1 class="sans tcg70 fw2 ft7 tac lh1-4 mb2">
-                A step-by-step training course on building robust, well-designed Laravel applications with TDD.
+                A comprehensive step-by-step video course on designing robust Laravel applications with TDD.
             </h1>
             <p class="sans tcg80 tac fw6 ft4 mb2 lh1-5">
                 Coming November 29th!
             </p>
         </div>
     </div>
-    <div class="container">
-        <div class="nmt6 mb4">
+    <div class="wrap">
+        <div class="nmt6.5 mb4">
             @include('_partials.sign-up-ck')
         </div>
 
@@ -59,6 +59,22 @@
                 Earlier this year I <a href="https://adamwathan.me/2016/01/11/test-driven-laravel-from-scratch/" class="tc3 :tc1">published a screencast</a> that walked through how I get the ball rolling when using TDD to build a brand new application:
             </p>
 
+            <div class="mb3">
+                <div class="brdr2--left bc1 bgg05 pv1 ph2 mb2">
+                    <div class="mv1">
+                        <blockquote class="sans tcg70 fw3 ft4 mb1">"Everyone watch this. Seriously."</blockquote>
+                        <p class="tcg50 sans fw4 ft3 mb1">
+                            <img src="https://pbs.twimg.com/profile_images/745781059040645120/Hg8W0kXe.jpg" alt="" class="img30x30 mr.5 circle">
+                            <a class="tc3 :tc1" href="https://twitter.com/taylorotwell/status/671737941039779841" target="_blank" rel="noopener noreferrer">Taylor Otwell</a>, creator of Laravel
+                        </p>
+                    </div>
+                </div>
+                {{-- <div class="video-embed">
+                    <iframe src="https://player.vimeo.com/video/151390908" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div> --}}
+            </div>
+{{--
+
             <div class="card bggc bgw brdr1 bcg10 br6 lh1-5 ph2 pv1 mb3 flex">
                 <div class="mw20 relative">
                     <img src="/img/video-thumb.png">
@@ -81,10 +97,10 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <p class="sans fw4 ft4 lh1-5 mb2">
-                Test-Driven Laravel takes all of the ideas I've had to piece together and refine myself, and bundles them up into a <span class="fw8">comprehensive video course</span>.
+                Test-Driven Laravel takes all of the ideas that I've had to piece together and refine myself, and bundles them up into a <span class="fw8">comprehensive video course</span>.
             </p>
 
             <p class="sans fw4 ft4 lh1-5 mb2">
@@ -94,7 +110,7 @@
 
     </div>
     <div class="section-learn bgg05 brdr1--top brdr1--bottom bcg20 pv4 tal lh1-5">
-        <div class="container">
+        <div class="wrap">
             <h3 class="tc3 fw7 ft8 mb2 lh1-5">What you’ll learn</h3>
             <p class="sans tcg50 lh1 fw4 ft4 mb2 lh1-5">
                 The biggest objective of this course is to teach you how to TDD something <em>real</em>, not another cookie-cutter to-do app.
@@ -125,7 +141,7 @@
     </div>
 
     <div class="section-about pv4 tal lh1-5">
-        <div class="container">
+        <div class="wrap">
             <div class="mb4">
                 <h3 class="tc3 fw7 ft8 mb2 lh1-5">What we'll build</h3>
                 <p class="sans tcg70 fw4 ft6 mb2 lh1-5">Together we'll build <em>TicketBeast</em>, a platform for local concert promoters to sell tickets to their events.</p>
@@ -152,7 +168,7 @@
                 <div class="mv1">
                     <blockquote class="sans tcg70 fw3 ft4 mb1">"Definitely sign up for Adam's upcoming course. Highly recommended."</blockquote>
                     <p class="tcg50 sans fw4 ft3 mb1">
-                        <img src="https://pbs.twimg.com/profile_images/741794879114772484/K7QTm6NM.jpg" alt="" width="30" height="30" class="mr.5 circle">
+                        <img src="https://pbs.twimg.com/profile_images/741794879114772484/K7QTm6NM.jpg" alt="" class="img30x30 mr.5 circle">
                         <a class="tc3 :tc1" href="https://twitter.com/jeffrey_way/status/796812812555354112" target="_blank" rel="noopener noreferrer">Jeffrey Way</a>, creator of Laracasts
                     </p>
                 </div>
@@ -161,7 +177,7 @@
     </div>
 
     {{-- <div class="section-learn bgg05 brdr1--top brdr1--bottom bcg20 pv4 tal">
-        <div class="container">
+        <div class="wrap">
             <h3 class="tc3 fw7 ft8 mb2">Course Outline</h3>
             <p class="sans tcg70 fw4 ft6 mb2">Here's how TicketBeast breaks down into what we cover in the course:</p>
             <ol class="sans tcg50 fw4 ft4 lh1-5 mb2">
@@ -189,12 +205,12 @@
     </div> --}}
 
     <div class="section-about bgg05 bcg20 brdr1--top pv4 tal">
-        <div class="container">
-            <h3 class="tc3 fw7 ft8 mb2">About</h3>
+        <div class="wrap">
+            <h3 class="tc3 fw7 ft8 mb2 only-sm-tac">About</h3>
             <div class="frame">
                 <div class="blk md-blk3">
-                    <div class="about-avatar">
-                        <img src="/img/avatar-adam.png">
+                    <div class="tac only-sm-mb2">
+                        <img src="/img/avatar-adam.jpg" class="circle img-sm-100">
                     </div>
                 </div>
                 <div class="blk md-blk9">

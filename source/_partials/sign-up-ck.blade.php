@@ -10,8 +10,11 @@
         <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;}" id="ck_form_options">
         <input type="hidden" name="id" value="128080" id="landing_page_id">
         <div class="mb2">
-            <p class="sans fw3 ft6 tac bcg20 lh1-5 tcg60 mw36 center">
+            <p class="sans fw3 ft6 tac bcg20 lh1-5 tcg60 mw36 center only-sm-dn">
                 Sign up to get <span class="fw6 tcg80">four free preview lessons</span> and an <span class="fw6 tcg80">exclusive discount</span> at launch.
+            </p>
+            <p class="sans fw3 ft6 tac bcg20 lh1-5 tcg60 mw36 center md-dn">
+                Sign up for <span class="fw6 tcg80">free preview lessons</span> and an <span class="fw6 tcg80">exclusive discount.</span>
             </p>
         </div>
         <div>
