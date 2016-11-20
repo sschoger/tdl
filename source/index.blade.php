@@ -142,7 +142,6 @@
                     <li class="mb1">Release more tickets if the event is selling out and they want to move it to a bigger venue</li>
                     <li class="mb1">Send important updates to ticket holders</li>
                     <li class="mb1">Print the guest list to check off each attendee at the door on the day of the concert</li>
-                    <li class="mb1">Cancel events and refund people's money</li>
                 </ul>
                 <p class="sans tcg50 lh1 fw4 ft4 lh1-5">We'll build the entire application using TDD every step of the way, and you'll have access to all of the source code to pour over when we're finished.</p>
             </div>
