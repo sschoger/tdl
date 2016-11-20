@@ -8,7 +8,7 @@
             <h1 class="sans tcg70 fw2 ft7 tac lh1-4 mb2 only-sm-dn">
                 A comprehensive step-by-step video course on designing robust Laravel applications with TDD.
             </h1>
-            <h1 class="sans tcg70 fw2 ft7 tac lh1-4 mb2 dn-md">
+            <h1 class="sans tcg70 fw2 ft7 tac lh1-4 mb2 md-dn">
                 A step-by-step course on designing robust Laravel applications with TDD.
             </h1>
             <p class="sans tcg80 tac fw6 ft4 mb2 lh1-5">

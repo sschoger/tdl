@@ -9,6 +9,6 @@ elixir(function(mix) {
     var env = argv.e || argv.env || 'local';
     var port = argv.p || argv.port || 3000;
 
-    mix.sass('main.scss')
+    mix.sass('test-driven-laravel.scss')
         .exec('./vendor/bin/jigsaw build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*']);
 });
