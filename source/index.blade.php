@@ -5,8 +5,11 @@
     <div class="pb8 bgg10 pt4 ">
         <div class="wrap">
             <div class="tdl-logo tac mb4"><img src="/img/tdl-logo3.png"></div>
-            <h1 class="sans tcg70 fw2 ft7 tac lh1-4 mb2">
+            <h1 class="sans tcg70 fw2 ft7 tac lh1-4 mb2 only-sm-dn">
                 A comprehensive step-by-step video course on designing robust Laravel applications with TDD.
+            </h1>
+            <h1 class="sans tcg70 fw2 ft7 tac lh1-4 mb2 dn-md">
+                A step-by-step course on designing robust Laravel applications with TDD.
             </h1>
             <p class="sans tcg80 tac fw6 ft4 mb2 lh1-5">
                 Coming November 29th!
@@ -69,9 +72,9 @@
                         </p>
                     </div>
                 </div>
-                {{-- <div class="video-embed">
+                <div class="video-embed">
                     <iframe src="https://player.vimeo.com/video/151390908" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div> --}}
+                </div>
             </div>
 {{--
 
